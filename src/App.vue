@@ -8,7 +8,9 @@
             :width="sidebarWidth"
         >
             <div class="logo">
-                <a href="/"> <img class="logo-img" :src="logo" alt="logo"/></a>
+                <a href="/">
+                    <img class="logo-img" :src="logo" alt="logo" />
+                </a>
             </div>
             <aside-menu :menu-list="menu"></aside-menu>
         </a-layout-sider>
@@ -23,7 +25,7 @@
                     href="https://github.com/lujdong/website-nav"
                     target="_blank"
                 >
-                    LuJDong
+                    LuJdong
                 </a>
             </a-layout-footer>
         </a-layout>

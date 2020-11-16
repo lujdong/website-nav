@@ -6,11 +6,6 @@ import IconFont from '/@/components/IconFont.vue'
 
 import 'ant-design-vue/dist/antd.css'
 import '/@/styles/index.less'
-// import { createFromIconfontCN } from '@ant-design/icons-vue'
-
-// const IconFont = createFromIconfontCN({
-//     scriptUrl: '//at.alicdn.com/t/font_1613863_kz3g2wvbbrn.js'
-// })
 
 const app = createApp(App)
 app.component('icon-font', IconFont)

@@ -32,7 +32,8 @@ const viteConfig = {
     },
     define: {
         __VERSION__: pkg.version
-    }
+    },
+    base: './'
 }
 
 export default viteConfig
