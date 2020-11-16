@@ -9,6 +9,7 @@
         <template v-for="(item, index) in menuList" :key="index">
             <a-sub-menu v-if="item.children" :key="index">
                 <template #title>
+                    <icon-font :type="item.icon"></icon-font>
                     <span>{{ item.title }}</span>
                 </template>
                 <a-menu-item

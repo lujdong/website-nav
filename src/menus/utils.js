@@ -1,6 +1,6 @@
 export default {
     title: '常用工具',
-    icon: 'linecons-thumbs-up',
+    icon: 'icon-icon--',
     children: [
         {
             title: '站长工具',
@@ -48,18 +48,6 @@ export default {
                     logo: 'baidu.png',
                     title: '百度站长平台',
                     desc: '百度搜索资源平台 - 让网站更具价值'
-                },
-                {
-                    url: 'https://zhanzhang.sogou.com',
-                    logo: 'sogou.png',
-                    title: '搜狗站长平台',
-                    desc: '搜狗站长平台 - 全面掌握在搜狗搜索中的数据表现'
-                },
-                {
-                    url: 'http://zhanzhang.so.com',
-                    logo: '360.png',
-                    title: '360 站长平台',
-                    desc: '360 站长平台 - 给网站带来更多流量和展现'
                 },
                 {
                     url: 'http://www.google.cn',
@@ -150,6 +138,12 @@ export default {
                     logo: '500d.png',
                     title: '5百丁',
                     desc: '中国领先的PPT模板共享平台'
+                },
+                {
+                    url: 'http://www.1ppt.com/',
+                    logo: '1ppt.png',
+                    title: '第一 PPT 网',
+                    desc: '免费 PPT 模板下载'
                 }
             ]
         },
@@ -163,28 +157,34 @@ export default {
                     desc: '在线将代码生成为图片'
                 },
                 {
-                    url: 'https://tinypng.com/',
-                    logo: 'tinypng.png',
-                    title: 'tinypng',
-                    desc: '通过质量和文件大小的完美平衡来优化图像。'
-                },
-                {
                     url: 'http://goqr.me/',
                     logo: 'goqr.png',
                     title: 'goqr',
                     desc: '免费创建二维码 (Logo, T-Shirt, vCard, EPS)'
                 },
                 {
-                    url: 'https://jakearchibald.github.io/svgomg/',
-                    logo: 'svgomg.png',
-                    title: 'svgomg',
-                    desc: 'SVG在线压缩平台'
+                    url: 'http://cli.im/',
+                    logo: 'cli.png',
+                    title: '草料二维码',
+                    desc: '国内创建二维码在线应用'
                 },
                 {
-                    url: 'https://www.gaoding.com',
-                    logo: 'gaoding.png',
-                    title: '稿定抠图',
-                    desc: '免费在线抠图软件,图片快速换背景-抠白底图'
+                    url: 'http://loading.io/',
+                    logo: 'loading.png',
+                    title: 'Loading',
+                    desc: '制作GIF、SVG、CSS加载动画图标'
+                },
+                {
+                    url: 'https://icons8.com/preloaders/',
+                    logo: 'preloaders.png',
+                    title: 'Preloaders',
+                    desc: 'Loading 懒加载动画在线制作'
+                },
+                {
+                    url: 'https://www.sioe.cn/yingyong/yanse-rgb-16/',
+                    logo: '.png',
+                    title: 'colorhunt',
+                    desc: 'RGB颜色值与十六进制颜色码转换工具'
                 }
             ]
         },
@@ -212,24 +212,6 @@ export default {
                     desc: 'Dns检测、CSS格式化、超级Ping、端口扫描等'
                 },
                 {
-                    url: 'https://tool.mkblog.cn/',
-                    logo: 'tool.png',
-                    title: '孟坤工具箱',
-                    desc: 'css一键美化、文本差异比较、代码高亮等'
-                },
-                {
-                    url: 'http://patorjk.com/software/taag/',
-                    logo: 'texttoASCII.png',
-                    title: 'Text to ASCII Art Generator',
-                    desc: '字符串转成 ASCII 码图案'
-                },
-                {
-                    url: 'http://www.mdeditor.com/',
-                    logo: 'mdeditor.png',
-                    title: 'MDEditor',
-                    desc: '开源在线 Markdown 编辑器'
-                },
-                {
                     url: 'http://linshiyouxiang.net/',
                     logo: 'linshiyouxiang.png',
                     title: '临时邮箱',
@@ -254,23 +236,10 @@ export default {
                     desc: '安全、实用的用户脚本大全'
                 },
                 {
-                    url: 'http://netsmell.com/apps/helloworldcollection/',
-                    logo: 'helloworldcollection.png',
-                    title: 'Hello World 大全',
-                    desc:
-                        '收集了大约481种 Hello World 程序，涵盖了目前已知的所有编程语言，另加上 67 人类语言'
-                },
-                {
                     url: 'http://qiao.github.io/PathFinding.js/visual/',
                     logo: 'PathFinding.png',
                     title: '动画展示各种路径搜索算法',
                     desc: '动画展示各种路径搜索算法'
-                },
-                {
-                    url: 'http://it-ebooks.info/',
-                    logo: 'it_ebooks.png',
-                    title: 'IT eBooks',
-                    desc: '可以下载IT电子书籍的网站（英文）'
                 },
                 {
                     url: 'http://geektyper.com/',
@@ -285,13 +254,6 @@ export default {
                     logo: 'free_programming_books.png',
                     title: '免费计算机编程类中文书籍',
                     desc: '免费计算机编程类中文书籍'
-                },
-                {
-                    url: 'http://www.easeus.com/',
-                    logo: 'easeus.png',
-                    title: 'EaseUS Partition Master',
-                    desc:
-                        '磁盘分区管理软件，不用重装系统，就可以重新划分磁盘空间'
                 }
             ]
         },
@@ -319,10 +281,10 @@ export default {
                     desc: 'PNG/JPG图片在线压缩利器'
                 },
                 {
-                    url: 'https://squoosh.app/',
-                    logo: 'squoosh.png',
-                    title: 'Squoosh',
-                    desc: 'Google开源在线压缩、调整工具，支持WebP'
+                    url: 'http://jakearchibald.github.io/svgomg/',
+                    logo: 'svgomg.png',
+                    title: 'SVGOMG',
+                    desc: 'SVG在线压缩平台'
                 },
                 {
                     url: 'http://www.iloveimg.com/',
@@ -332,48 +294,16 @@ export default {
                         '免费的在线图片处理工具，可在线编辑，压缩、裁剪、转换、水印等'
                 },
                 {
-                    url: 'http://smallpdf.com/',
-                    logo: 'smallpdf.png',
-                    title: 'Smallpdf',
-                    desc:
-                        'Smallpdf - A Free Solution to all your PDF Problems,PDF压缩、转换、分割、合并等'
-                },
-                {
                     url: 'http://photomosh.com/',
                     logo: 'photomosh.png',
                     title: 'PHOTOMOSH',
                     desc: '故障艺术在线生成，可以输出jpg、gif和视频'
                 },
                 {
-                    url: 'http://www.gaoding.com/koutu/',
-                    logo: 'gaoding.png',
-                    title: '稿定抠图',
-                    desc: '免费在线抠图软件,图片快速换背景-抠白底图'
-                },
-                {
-                    url: 'http://jakearchibald.github.io/svgomg/',
-                    logo: 'svgomg.png',
-                    title: 'SVGOMG',
-                    desc: 'SVG在线压缩平台'
-                },
-                {
                     url: 'http://yj.duduxuexi.com/',
                     logo: 'tmyjcl.png',
                     title: '在线图片透明圆角处理',
                     desc: '在线图片透明圆角处理'
-                },
-                {
-                    url: 'http://cli.im/',
-                    logo: 'cli.png',
-                    title: '草料二维码',
-                    desc: '国内创建二维码在线应用'
-                },
-                {
-                    url:
-                        'http://github.com/justjavac/free-programming-books-zh_CN/',
-                    logo: 'free_programming_books.png',
-                    title: '免费计算机编程类中文书籍',
-                    desc: '免费计算机编程类中文书籍'
                 },
                 {
                     url: 'http://waifu2x.udp.jp/',
@@ -401,13 +331,6 @@ export default {
                     desc: 'OK资源采集-最新影视资源大全'
                 },
                 {
-                    url: 'http://jianwai.netease.com/',
-                    logo: 'jianwai.png',
-                    title: '网易见外工作台',
-                    desc:
-                        '针对视频、图片、文档、音频都可以进行翻译转写操作，每天两小时免费使用'
-                },
-                {
                     url: 'http://www.hipdf.com/',
                     logo: 'hipdf.png',
                     title: 'HiPDF',
@@ -425,6 +348,12 @@ export default {
                     title: 'ScreenToGif',
                     desc:
                         '开源、轻量级却非常强大的录屏软件，快速将屏幕录制成高清GIF'
+                },
+                {
+                    url: 'http://github.com/Molunerfinn/PicGo/',
+                    logo: 'PicGo.png',
+                    title: 'PicGo',
+                    desc: '由 electronic-vue 构建的简单而精美的图片上传工具'
                 }
             ]
         },
@@ -449,12 +378,6 @@ export default {
                     logo: 'quicker.png',
                     title: 'Quicker',
                     desc: '为常用操作建立捷径，PC 快捷动作面板，让效率触手可及!'
-                },
-                {
-                    url: 'https://www.wofficebox.com/',
-                    logo: 'wofficebox.png',
-                    title: '万彩办公大师',
-                    desc: '免费、轻松处理文档/音视频/图片的工具'
                 },
                 {
                     url: 'http://www.cockos.com/licecap/',
@@ -482,12 +405,6 @@ export default {
                     desc: '速度最快的的文件搜索工具'
                 },
                 {
-                    url: 'http://efotinis.neocities.org/deskpins/',
-                    logo: 'deskpins.png',
-                    title: 'DeskPins',
-                    desc: '顶置任意窗口'
-                },
-                {
                     url: 'http://github.com/zhongyang219/TrafficMonitor/',
                     logo: 'trafficmonitor.png',
                     title: 'TrafficMonitor',
@@ -495,66 +412,10 @@ export default {
                         '一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件'
                 },
                 {
-                    url: 'http://github.com/Molunerfinn/PicGo/',
-                    logo: 'PicGo.png',
-                    title: 'PicGo',
-                    desc: '由 electronic-vue 构建的简单而精美的图片上传工具'
-                },
-                {
-                    url: 'http://github.com/microsoft/PowerToys/',
-                    logo: 'PowerToys.png',
-                    title: 'PowerToys',
-                    desc: '微软为 Windows 系统推出的一系列免费实用小工具合集'
-                },
-                {
-                    url: 'http://www.chuyu.me/',
-                    logo: 'chuyu.png',
-                    title: 'Dism++',
-                    desc:
-                        '一款根据微软底层的架构结构设计的一个系统维护工具，全球第一款基于 CBS 的 Dism GUI 实现'
-                },
-                {
                     url: 'http:/colorpix.en.softonic.com/',
                     logo: 'colorpix.png',
                     title: 'ColorPix',
                     desc: '屏幕取色小工具'
-                },
-                {
-                    url: 'http://www.ccleaner.com/',
-                    logo: 'ccleaner.png',
-                    title: 'CCleaner',
-                    desc: '一款免费的系统优化和隐私保护工具'
-                },
-                {
-                    url: 'http://blog.bahraniapps.com/gifcam/',
-                    logo: 'gifcam.png',
-                    title: 'GifCam',
-                    desc:
-                        '集录制与剪辑为一体的屏幕 GIF 动画制作工具，录制后的动画可以逐帧编辑'
-                },
-                {
-                    url: 'http://fliqlo.com/',
-                    logo: 'fliqlo.png',
-                    title: 'Fliqlo',
-                    desc: '一款极简主义的时钟屏保软件'
-                },
-                {
-                    url: 'http://www.stardock.com/products/fences/',
-                    logo: 'fences.png',
-                    title: 'Fences',
-                    desc: '栅栏管理桌面，使桌面更加整洁有条理'
-                },
-                {
-                    url: 'http://www.ieway.cn/',
-                    logo: 'ieway.png',
-                    title: 'EV录屏',
-                    desc: '一款免费并且不添加水印的录屏工具'
-                },
-                {
-                    url: 'http://www.q-dir.com/',
-                    logo: 'q_dir.png',
-                    title: 'Q-dir',
-                    desc: '多窗口文件整理工具'
                 },
                 {
                     url: 'http://www.yingdev.com/projects/wgestures/',
@@ -567,61 +428,23 @@ export default {
                     logo: 'xmind.png',
                     title: 'XMind',
                     desc: '一个全功能的思维导图和头脑风暴软件'
-                },
-                {
-                    url: 'http://www.speedpan.com/',
-                    logo: 'speedpan.png',
-                    title: '速盘',
-                    desc: '免登录，自动查询提取码，极速的度盘下载工具'
-                },
-                {
-                    url: 'http://justgetflux.com/',
-                    logo: 'justgetflux.png',
-                    title: 'f.lux',
-                    desc:
-                        '国外开源的护眼软件，通过根据时间调节屏幕颜色，减少蓝光对视力的影响'
                 }
             ]
         },
         {
-            title: 'Chrome插件',
+            title: '图形设计',
             web: [
                 {
-                    url: 'https://www.wappalyzer.com/',
-                    logo: 'wappalyzer.png',
-                    title: 'wappalyzer',
-                    desc: 'Identify technology on websites'
+                    url: 'https://www.gaoding.com',
+                    logo: 'gaoding.png',
+                    title: '稿定抠图',
+                    desc: '免费在线抠图软件,在线Photoshop'
                 },
                 {
-                    url: 'http://usepanda.com/',
+                    url: 'https://www.canva.cn/',
                     logo: 'usepanda.png',
-                    title: 'Panda',
-                    desc: 'A smart news reader built for productivity.'
-                },
-                {
-                    url: 'https://sizzy.co/',
-                    logo: 'sizzy.png',
-                    title: 'sizzy',
-                    desc: 'A tool for developing responsive websites crazy-fast'
-                },
-                {
-                    url: 'https://csspeeper.com/',
-                    logo: 'csspeeper.png',
-                    title: 'csspeeper',
-                    desc: 'Smart CSS viewer tailored for Designers.'
-                },
-                {
-                    url: 'http://insight.io/',
-                    logo: 'insight.png',
-                    title: 'insight',
-                    desc: 'IDE-like code search and navigation, on the cloud'
-                },
-                {
-                    url: 'http://mustsee.earth/',
-                    logo: 'mustsee.png',
-                    title: 'mustsee',
-                    desc:
-                        "Discover the world's most beautiful places at every opened tab."
+                    title: 'Canva',
+                    desc: '免费协作&创造惊人的平面设计'
                 }
             ]
         }

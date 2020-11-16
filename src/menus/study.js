@@ -1,6 +1,6 @@
 export default {
     title: '学习教程',
-    icon: 'b',
+    icon: 'icon-xuexizhongxin',
     children: [
         {
             title: '在线视频',
@@ -20,10 +20,10 @@ export default {
                         '慕课网（IMOOC）是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课'
                 }
             ]
-        },
-        {
-            title: '学习平台',
-            web: []
         }
+        // {
+        //     title: '学习平台',
+        //     web: []
+        // }
     ]
 }
