@@ -2,7 +2,7 @@ import { resolve } from 'path'
 
 const pkg = require('./package.json')
 
-import { modifyVars } from './config/lessModifyVars'
+import { modifyVars } from './src/config/lessModifyVars'
 
 function pathResolve(dir) {
     return resolve(__dirname, '.', dir)

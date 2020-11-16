@@ -19,10 +19,12 @@
                     {{ subItem.title }}
                 </a-menu-item>
             </a-sub-menu>
-            <a-menu-item :key="index" v-else @click="scrollTo(item)">
-                <icon-font :type="item.icon"></icon-font>
-                <span>{{ item.title }}</span>
-            </a-menu-item>
+            <template v-else>
+                <a-menu-item :key="index" @click="scrollTo(item)">
+                    <icon-font :type="item.icon"></icon-font>
+                    <span>{{ item.title }}</span>
+                </a-menu-item>
+            </template>
         </template>
     </a-menu>
 </template>
