@@ -81,6 +81,13 @@ export default {
                     desc: '百度统计 — 最大的中文网站分析平台'
                 },
                 {
+                    url: 'https://www.upyun.com/',
+                    logo: '/utils/upyun.png',
+                    title: '又拍云',
+                    desc:
+                        '国内知名企业级云服务商,在全球拥有1100多个自建CDN节点,10TB保有带宽,为25万用户提供CDN,云存储,HTTPS／SSL证书,WebP,云处理,短视频开发SDK,直播开发SDK,DDos高防等一站式加速解决方案!'
+                },
+                {
                     url: 'http://www.umeng.com/',
                     logo: '/utils/umeng.png',
                     title: '友盟+',
@@ -442,7 +449,7 @@ export default {
                 },
                 {
                     url: 'https://www.canva.cn/',
-                    logo: '/utils/usepanda.png',
+                    logo: '/utils/canva.png',
                     title: 'Canva',
                     desc: '免费协作&创造惊人的平面设计'
                 }

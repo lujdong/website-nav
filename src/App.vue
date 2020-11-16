@@ -19,7 +19,12 @@
             </a-layout-content>
             <a-layout-footer class="footer" style="textAlign: center">
                 © 2020 design by
-                <a href="https://github.com/lujdong" target="_blank">LuJDong</a>
+                <a
+                    href="https://github.com/lujdong/website-nav"
+                    target="_blank"
+                >
+                    LuJDong
+                </a>
             </a-layout-footer>
         </a-layout>
     </a-layout>

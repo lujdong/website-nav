@@ -26,6 +26,7 @@
                                 class="logo-img"
                                 :src="logoSrc(item)"
                                 :alt="item.title"
+                                @error="loadImgError"
                             />
                         </div>
                         <div class="site-info">
@@ -53,11 +54,17 @@ export default {
         }
     },
     setup() {
+        const baseSrc =
+            '//cdn.jsdelivr.net/gh/lujdong/assets-cdn/nav/images/logos'
         const logoSrc = item => {
-            return `//cdn.jsdelivr.net/gh/lujdong/assets-cdn/nav/images/logos/${item.logo}`
+            return baseSrc + item.logo
+        }
+        const loadImgError = e => {
+            e.target.src = baseSrc + '/error.png'
         }
         return {
-            logoSrc
+            logoSrc,
+            loadImgError
         }
     }
 }

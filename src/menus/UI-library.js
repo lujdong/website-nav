@@ -62,7 +62,7 @@ export default {
             web: [
                 {
                     url: 'http://frozenui.github.io/',
-                    logo: 'frozenui.png',
+                    logo: '/UI-library/frozenui.png',
                     title: 'FrozenUI',
                     desc:
                         'FrozenUI 是一套基于移动端的UI库轻量、精美、遵从手机 QQ 设计规范'
