@@ -7,7 +7,9 @@
             class="sider-container"
             :width="sidebarWidth"
         >
-            <div class="logo" />
+            <div class="logo">
+                <a href="/"> <img class="logo-img" :src="logo" alt="logo"/></a>
+            </div>
             <aside-menu :menu-list="menu"></aside-menu>
         </a-layout-sider>
         <a-layout ref="content" class="container">
@@ -27,13 +29,15 @@ import menu from './menus'
 import websiteList from './components/website/websiteList.vue'
 import AsideMenu from '/@/components/AsideMenu.vue'
 import { ref } from 'vue'
+import logo from './assets/logo.png'
 export default {
     components: { websiteList, AsideMenu },
     setup() {
         const sidebarWidth = ref('200px')
         return {
             sidebarWidth,
-            menu
+            menu,
+            logo
         }
     }
 }
