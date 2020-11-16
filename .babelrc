@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "ant--vue",
+                // "libraryDirectory": "es",
+                "style": true
+            }
+        ]
+    ]
+}

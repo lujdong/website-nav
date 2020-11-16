@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #ccc;
+}
+
+@light-border: 1px solid #e0e0e0;
+
+#layout {
+    height: 100vh;
+    background: #fff;
+
+    .logo {
+        height: 32px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 16px;
+    }
+
+    .container {
+        position: relative;
+
+        .nav-header {
+            background: #fff;
+            border-bottom: @light-border;
+        }
+
+        .main {
+            min-height: auto;
+
+            .main-content {
+                padding: 36px;
+                height: 100%;
+                background: rgb(240, 242, 245);
+            }
+        }
+
+        .footer {
+            border-top: @light-border;
+        }
+    }
+}
