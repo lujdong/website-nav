@@ -26,14 +26,12 @@
 import menu from './menus'
 import websiteList from './components/website/websiteList.vue'
 import AsideMenu from '/@/components/AsideMenu.vue'
-import siteConfig from '../config/siteConfig'
 import { ref } from 'vue'
 export default {
     components: { websiteList, AsideMenu },
     setup() {
         const sidebarWidth = ref('200px')
         return {
-            ...siteConfig,
             sidebarWidth,
             menu
         }
