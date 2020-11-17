@@ -43,6 +43,7 @@
 <script>
 import { TagOutlined } from '@ant-design/icons-vue'
 import siteConfig from '/@/config/siteConfig'
+import error from '/@/assets/error.png'
 export default {
     components: { TagOutlined },
     props: {
@@ -57,7 +58,7 @@ export default {
     setup() {
         const logoSrc = item => siteConfig.baseLogoUrl + item.logo
         const loadImgError = e => {
-            e.target.src = siteConfig.baseLogoUrl + '/error.png'
+            e.target.src = error
         }
         return {
             logoSrc,

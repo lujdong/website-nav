@@ -15,7 +15,13 @@
             <aside-menu :menu-list="menu"></aside-menu>
         </a-layout-sider>
         <a-layout ref="content" class="container">
-            <a-layout-header class="nav-header"> </a-layout-header>
+            <a-layout-header class="nav-header">
+                <!-- <div class="nav-item">
+                    <a href="" class="nav-item-link">
+                        博客首页
+                    </a>
+                </div> -->
+            </a-layout-header>
             <a-layout-content class="main">
                 <website-list :menu-list="menu"></website-list>
             </a-layout-content>
