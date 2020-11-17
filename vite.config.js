@@ -17,7 +17,11 @@ const viteConfig = {
     },
     outDir: 'dist',
     sourcemap: false,
-    assetsDir: '_assets',
+    /**
+     * 打包到同级目录
+     * @default _assets
+     */
+    assetsDir: './',
     assetsInlineLimit: 4096,
     esbuildTarget: 'es2020',
     silent: false,
