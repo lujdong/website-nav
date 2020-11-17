@@ -15,9 +15,9 @@ const viteConfig = {
             'moment/locale/zh-cn'
         ]
     },
-    outDir: 'nav',
+    outDir: 'dist',
     sourcemap: false,
-    assetsDir: './',
+    assetsDir: '_assets',
     assetsInlineLimit: 4096,
     esbuildTarget: 'es2020',
     silent: false,
