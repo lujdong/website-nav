@@ -32,7 +32,9 @@
 
 <script>
 import { reactive, toRefs } from 'vue'
+import IconFont from '/@/components/IconFont.vue'
 export default {
+    components: { IconFont },
     props: {
         menuList: Array
     },
