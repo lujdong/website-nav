@@ -24,7 +24,7 @@
                         <div class="site-logo">
                             <img
                                 class="logo-img"
-                                :src="logoSrc(item)"
+                                v-lazy="logoSrc(item)"
                                 :alt="item.title"
                                 @error="loadImgError"
                             />
