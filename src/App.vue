@@ -8,7 +8,7 @@
             :width="sidebarWidth"
         >
             <div class="logo">
-                <a href="/">
+                <a href="/nav">
                     <img class="logo-img" :src="logo" alt="logo" />
                 </a>
             </div>
