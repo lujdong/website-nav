@@ -151,6 +151,13 @@ export default {
                     logo: '/utils/1ppt.png',
                     title: '第一 PPT 网',
                     desc: '免费 PPT 模板下载'
+                },
+                {
+                    url: 'https://www.wondercv.com/',
+                    logo: '/utils/wondercv.png',
+                    title: '超级简历',
+                    desc:
+                        'HR推荐简历模板,智能简历制作工具,专业中英文简历模板免费下载'
                 }
             ]
         },
