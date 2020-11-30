@@ -107,6 +107,39 @@ export default {
                     logo: '/design/lanrentuku.png',
                     title: '懒人图库',
                     desc: '懒人图库专注于提供网页素材下载'
+                },
+                {
+                    url: 'http://www.bg-painter.com/',
+                    logo: '/design/bg-painter.png',
+                    title: 'Bg-Painter',
+                    desc:
+                        '提供了由算法和程序生成的酷背景图像，支持免费下载和在任何地方使用'
+                },
+                {
+                    url: 'https://bggenerator.com/zh-cn.php',
+                    logo: '/design/bggenerator.png',
+                    title: 'BgGenerator',
+                    desc:
+                        '背景生成器（BgGenerator）是一个免费的在线图像生成器，它使用好几种不同的模板和样式来生成独特的创意超大分辨率图片，可以很好的帮助设计师来快速解决问题。'
+                },
+                {
+                    url: 'https://csslayout.io/',
+                    logo: '',
+                    title: 'CSS Layout',
+                    desc: '涵盖了各种经典CSS布局，支持在线演示及复制代码'
+                },
+                {
+                    url: 'https://animista.net/',
+                    logo: '/design/animista.png',
+                    title: 'CSS Layout',
+                    desc: '提供CSS动画在线演示，代码免费复制'
+                },
+                {
+                    url: 'https://chokcoco.github.io/CSS-Inspiration/#/',
+                    logo: '/design/CSS-Inspiration.png',
+                    title: 'CSS 灵感',
+                    desc:
+                        '这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。'
                 }
             ]
         },
