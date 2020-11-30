@@ -1,6 +1,6 @@
 {
-  "name": "vite-nav",
-  "version": "0.0.0",
+  "name": "website-nav",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
